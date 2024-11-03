@@ -46,5 +46,5 @@ new_launcher = Launcher(name="Launcher", action=["part_1", "part_2"])
 ```
 eg:
 ```
-update_system = Launceher(name="Update All", ["sudo", "apt", "upgrade", "-y"])
+update_system = Launceher(name="Update All", action=["sudo", "apt", "upgrade", "-y"])
 ```
