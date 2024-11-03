@@ -97,11 +97,11 @@ update_system = Launcher(
 # ssh launchers
 nas = Launcher(
     name="NAS",
-    action=["ssh", "-X", "graham@192.168.1.236"]
+    action=["ssh", "-X", "user@xxx.xxx.xxx.xxx"]
 )
 pihole = Launcher(
     name="PiHole",
-    action=["ssh", "graham@192.168.1.113"]
+    action=["ssh", "user@xxx.xxx.xxx.xxx"]
 )
 
 # Menus
