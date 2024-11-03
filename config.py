@@ -77,15 +77,15 @@ w3m = Launcher(
 # Place launchers
 documents = Launcher(
     name="Nextcloud",
-    action=["ranger", "/home/graham/Documents"]
+    action=["ranger", "/home/user/Documents"]
 )
 music = Launcher(
     name="Music",
-    action=["ranger", "/home/graham/Music"]
+    action=["ranger", "/home/user/Music"]
 )
 downloads = Launcher(
     name="Downloads",
-    action=["ranger", "/home/graham/Downloads"]
+    action=["ranger", "/home/user/Downloads"]
 )
 
 # Script launchers
