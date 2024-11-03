@@ -42,7 +42,7 @@ new_menu = Menu(name="Name", items=[sub_menu_1, sub_menu_2, launcher_1, launcher
 
 Add new launcher:
 ```
-new_launcher = Launcher(name="Launcher", actions=["part_1", "part_2"])
+new_launcher = Launcher(name="Launcher", action=["part_1", "part_2"])
 ```
 eg:
 ```
